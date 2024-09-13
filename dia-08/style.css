@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+    background-color:#444;
+    color: aqua;
+}
+
+main{
+    width: 96%;
+    padding-left: 2%;
+
+}
+
+main > div{
+    width: 960px;
+    padding: 20px;
+    margin: auto;
+}
+
+p{
+    margin: 10px;
+    text-wrap:wrap;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+span{
+    color: silver;
+}
+ .hi{
+    color: red;
+ }
+.st{
+    color: black;
+}
+
+.cin{
+    color: blueviolet;
+}
+
+mark{
+    color: cadetblue;
+}
