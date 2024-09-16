@@ -1,0 +1,22 @@
+body{
+    --color-fondo: #227;
+    --color-text: #ff9;
+    background-color: var(--color-fondo);
+    color: var(--color-text);
+}
+
+.containes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+   
+}
+.containes > div{
+    padding: 10px;
+    box-shadow: 2px 2px 0px 0px #fffa;
+}
+
+h1,p{
+    font-size: 3rem;
+    font-weight: 700;
+}
