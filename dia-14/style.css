@@ -1,0 +1,21 @@
+body {
+    --color:#efe;
+    --bc:#38e; 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--bc);
+    color: var(--color);
+}
+
+.conten{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.txt{
+    width: 500px;
+    text-wrap: wrap;
+}
