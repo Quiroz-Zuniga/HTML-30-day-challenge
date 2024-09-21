@@ -1,0 +1,9 @@
+body{
+    background:linear-gradient(#48e 80%, #fff 10%);
+}
+.container{
+    background-color: #111;
+    width: 340px;
+    height: auto;
+    margin: auto ;
+}
