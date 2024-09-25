@@ -1,0 +1,103 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    --COLOR-BODY: rgb(136, 238, 190);
+    --COLOR-CARD: rgba(69, 9, 138, 0.5) ;
+    background:url(rick-and-morty-en-nave_3840x2400_xtrafondos.com.jpg) top no-repeat;
+    background-size: cover ;
+    color: #2f0;
+    font-size: 22px;
+}
+
+.card-containes{
+    width: 20%;
+    padding: 10px;
+    height: auto;
+    background-color: var(--COLOR-CARD);
+    margin: auto;
+    margin-top: 50px ;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px #333;
+}
+
+.contines-text{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containes-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    margin-top: 10px;
+}
+ a{
+    color: #2f0;
+}
+
+img{
+    border-radius: 50%;
+    height: auto;
+    width: 200px;
+
+}
+
+
+
+/* Animaciones */
+img:hover{
+
+}
+
+.card-containes:hover {
+    transform: translate(-12PX, -10PX);
+    box-shadow: 2PX 2PX 2PX 2PX #000;
+    animation: parpadeo 2s infinite;
+}
+
+@keyframes parpadeo {
+    0%{
+        box-shadow: 2PX 2PX 2PX 2PX #fff;
+    }
+
+    50%{
+        box-shadow: 2PX 2PX 2PX 2PX #917;
+    }
+
+    100%{
+        box-shadow: 2PX 2PX 2PX 2PX #2f0;
+    }
+}
+
+.card-containes:active{
+    animation: rotar 3s infinite ;
+
+}
+
+@keyframes rotar {
+    0%{
+        transform: rotate(0deg);
+        border: 1px solid #fff;
+    }
+
+    25%{ 
+        transform: rotate(90deg);
+        border: 2px solid #2f0;
+    }
+    50%{
+        transform: rotate(180deg);
+        border: 1px solid #000;
+    }
+    75%{
+        transform: rotate(270deg);
+        border: 1px solid #fff;
+    }
+    100%{
+        transform: rotate(360deg);
+        border: 2px solid #717;
+    }
+}

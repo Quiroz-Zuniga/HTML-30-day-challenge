@@ -2,23 +2,46 @@ body{
     margin: 0;
     background-color: #333;
 }
-.h1{
+h1{
     text-align: center;
     color: antiquewhite;
-    animation-duration: 3s ;
-    animation-name: parpadeo;
+}
+
+h1:hover{
+    animation: parpadeo  2s infinite;
+    cursor: pointer;
+}
+
+/* Buttom */
+
+button{
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+}
+button:active{
+    animation: rotar 2s ;
 }
 /* Animación */
 @keyframes parpadeo {
     from{
-        h1{
-            width: 300px;
-        }
+        transform: scale(1px);
+        text-transform: uppercase;
+        color: #727;
     }
     to{
-        h1{
-            width: 100px;
-        }
+        color: #194;
+        transform: scale(1px);
+        text-transform: uppercase;
     }
 }
 
+@keyframes rotar {
+    from{
+        
+        h1{
+            transform: rotate(180deg);
+        }
+    }
+   
+}
