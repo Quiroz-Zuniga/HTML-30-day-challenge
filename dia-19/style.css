@@ -1,0 +1,31 @@
+body{
+    background-color:#9cd2d3 ;
+    color: #222;
+}
+caption{
+    color: black;
+}
+th,td,tr,tfoot{
+    margin: 2px;
+    padding: 5px;
+}
+th{
+    border-bottom: 1px solid #333;
+    box-shadow: 0 0 2px 0 #333 ;
+}
+
+table{
+    margin: auto;
+    border: 2px solid #333;
+    background-color: #eaeaea;
+}
+
+tbody td:nth-child(3){
+    color: red;
+    background-color:#eaeaea;
+    text-align: center;
+}
+tfoot td {
+    border-top: 2px solid #333;
+    box-shadow: 0 0 2px 0 #333 ;
+}
