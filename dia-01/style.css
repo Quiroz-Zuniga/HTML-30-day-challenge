@@ -1,29 +1,57 @@
 body{
     margin: 0;
-    background-color: #333;
+    padding: 0;
+    box-sizing: border-box;
+    --foo-color:#333333;
+    --txt-color:#FFFFFF;
+    --nav-color:#F3C311;
+    --bag-color:#222222;
+    --incople-color:#BD3936;
+    font-family: monospace;
+    background-color: var(--bag-color);
+    color: var(--txt-color);
 }
-h1{
+
+/* Header */
+
+.header{
+    color: var(--nav-color);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Comentario */
+.coment{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid  var(--txt-color);
     text-align: center;
+    font-size: 15px;
+}
+/* Reto Contenedor */
+.reto{
+   min-height: 400px ;
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+    padding-bottom:10px ;
+}
+/* Reto */
+h2{
+    padding: 10px;
     color: antiquewhite;
 }
 
-h1:hover{
-    animation: parpadeo  2s infinite;
+h2:hover{
+    animation: parpade  2s infinite;
     cursor: pointer;
 }
 
-/* Buttom */
-
-button{
-    display: flex;
-    padding: 10px;
-    margin: 0 auto;
-}
-button:active{
-    animation: rotar 2s ;
-}
 /* Animación */
-@keyframes parpadeo {
+@keyframes parpade {
     from{
         transform: scale(1px);
         text-transform: uppercase;
@@ -36,12 +64,41 @@ button:active{
     }
 }
 
-@keyframes rotar {
-    from{
-        
-        h1{
-            transform: rotate(180deg);
-        }
-    }
-   
+/* footer */
+
+.foo{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: var(--foo-color);
 }
+
+span{
+    font-size: 16px;
+    color:  var(--nav-color);
+    padding: 0 10px 0 10px;
+}
+
+/* Efectos y animaciones */
+
+.header h1{
+    animation: parpadeo 8s ease-in-out infinite;
+}
+
+@keyframes parpadeo {
+    0%{
+        color: var(--nav-color);
+    }
+
+    50%{
+        color: var(--txt-color);
+    }
+
+    100%{
+        color: var(--nav-color);  
+    }
+}
+
+
