@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    background: #34e;
+    min-width: 400px;
+    min-height: auto;
+}
+
+input,textarea,button{
+    outline: none;
+    margin: 10px 0 10px 0 ;
+    min-width: 300px;
+    height: 40px ;
+}
