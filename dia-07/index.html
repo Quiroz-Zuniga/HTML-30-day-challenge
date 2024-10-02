@@ -4,13 +4,28 @@
     <meta name="description" content="Este ES un reto HTMl5, Imagenes">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagenes</title>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Challenge</title>
 </head>
 <body>
-    <picture>
-        <source srcset="Imagenes/images.jpeg" type="images/jxl">
-        <source srcset="Imagenes/imagesavit.avi" type="images/avif">
-        <img src="Imagenes/jpg.jpeg" alt="imagen de robot">
-    </picture>
+    <header class="header">
+        <h1>HTML Challenge Ruben Quiroz</h1>
+    </header>
+    <main>
+        <article class="coment">
+         <span class="text">Día 07</span> <p class="text">Coloca una imagen en formato JPEG-XL. Si el navegador no la soporta, que use AVIF. Sino, que use JPG.</p>
+        </article>
+        <section class="reto">
+            <picture>
+                <source srcset="Imagenes/images.jpeg" type="images/jxl">
+                <source srcset="Imagenes/imagesavit.avi" type="images/avif">
+                <img src="Imagenes/jpg.jpeg" alt="imagen de robot">
+            </picture>  
+        </section>
+    </main>
+    <footer class="foo">
+        <span>Creado Por Ruben Quiroz</span>
+        <span>Inspirado en Mazndev</span>
+    </footer>
 </body>
 </html>

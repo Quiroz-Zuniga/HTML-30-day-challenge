@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Reto Número 13">
-    <title>Reto Número 13</title>
+    <title>HTML Challenge</title>
 </head>
 <body>
-     <!-- Crea una barra medidora
-                que muestre los tickets vendidos 
-                en un cine (Ejemplo: 64/100 tickets vendidos). -->
-    <h2>tickets vendidos para la fuinción Deepoool</h2>
-    <form method="post" action="/send/">
-        <label for="tickets">tickets vendidos</label>
-                <meter  id="tickets" low="10" max="100" value="64">64/100</meter>
-                <span>64/100 tickets vendidos</span>
-    </form>
+    <header class="header">
+        <h1>HTML Challenge Ruben Quiroz</h1>
+    </header>
+    <main>
+        <article class="coment">
+         <span class="text">Día 13</span> <p class="text">Crea una barra medidora que muestre los tickets vendidos en un cine (Ejemplo: 64/100 tickets vendidos).</p>
+        </article>
+        <section class="reto">
+            <h2>tickets vendidos para la fuinción Deepoool</h2>
+            <form method="post" action="/send/">
+                <label for="tickets">tickets vendidos</label>
+                        <meter  id="tickets" low="10" max="100" value="64">64/100</meter>
+                        <span>64/100 tickets vendidos</span>
+            </form>
+        </section>
+    </main>
+    <footer class="foo">
+        <span>Creado Por Ruben Quiroz</span>
+        <span>Inspirado en Mazndev</span>
+    </footer>
 </body>
 </html>
 
-<!-- <meter value="0.5" ></meter> -->
-        <!-- <meter min="0" value="25" max="100" ></meter> -->
-        <!-- <meter min="0" max="100" value="15"
-                low="25" high="75" optimum="100"></meter> -->

@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Día 20</title>
+    <title>HTML Challenge</title>
 </head>
 <body>
-    <div class="container">
-        <form action="form">
-            
-            <input id="user" placeholder="User name:" required type="text">
-            <textarea name="Comentario" id="comen" maxlength=50" minlength="10" lang="es"
-            placeholder="Dejame Tu opinion:"  required rows="5""></textarea>
-            <button>Enviar</button>
-        </form>
-    </div>
+    <header class="header">
+        <h1>HTML Challenge Ruben Quiroz</h1>
+    </header>
+    <main>
+        <article class="coment">
+         <span class="text">Día 20</span> <p class="text">Crea un formulario para dejar un comentario en una página: Usuario y comentario de texto.</p>
+        </article>
+        <section class="reto">
+            <div class="container">
+                <form action="form">
+                    <input id="user" placeholder="User name:" required type="text">
+                    <textarea name="Comentario" id="comen" maxlength=50" minlength="10" lang="es"
+                    placeholder="Dejame Tu opinion:"  required rows="5""></textarea>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="foo">
+        <span>Creado Por Ruben Quiroz</span>
+        <span>Inspirado en Mazndev</span>
+    </footer>
 </body>
 </html>

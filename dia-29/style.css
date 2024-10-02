@@ -41,36 +41,6 @@ body{
 }
 /* Reto */
 
-.grid{
-    padding: 10px;
-    margin: 10px;
-    background-color: var(--txt-color);
-}
-h2{
-    color: var(--bag-color);
-}
-
-summary{
-    cursor: pointer;
-    user-select: none;
-    background-color: var(--nav-color);
-    color: var(--bag-color);
-    margin: 5px;
-    padding: 5px;
-    font-size: 15px;
-}
-
-summary div {
-    background-color: var(--bag-color);
-}
- div p{
-    text-align: center;
-    background-color: var(--bag-color);
-    color: var(--nav-color);
-    font-size:16px;
-    margin: 0;
-    padding: 2px;
- }
 /* footer */
 
 .foo{
@@ -107,4 +77,5 @@ span{
         color: var(--nav-color);  
     }
 }
+
 
