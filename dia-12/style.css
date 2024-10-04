@@ -17,10 +17,10 @@ body{
 .header{
   color: var(--nav-color);
   width: 100%;
-  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 22px;
 }
 
 /* Comentario */
@@ -29,14 +29,14 @@ body{
   height: auto;
   border-bottom: 1px solid  var(--txt-color);
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
 }
 /* Reto Contenedor */
 .reto{
- min-height: 400px ;
+ min-height: 450px ;
  display: flex;
  justify-content: center;
- align-items: baseline;
+ align-items: center;
   padding-bottom:10px ;
 }
 /* Reto */
@@ -85,9 +85,9 @@ body{
 .foo{
   display: flex;
   align-items:center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
-  height: 100px;
+  height: 200px;
   background-color: var(--foo-color);
 }
 
