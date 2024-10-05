@@ -15,12 +15,17 @@
          <span class="text">Día 28</span> <h2 class="text">Crea una ventana modal que bloquee la interación con otros botones. Requiere un poco de Javascript.</h2>
         </article>
         <section class="reto">
-    
+            <dialog id="alert-dialog" open>
+                    <p>Este día 28 de los retos de HTML nos centramos en crer una ventana modal.</p>
+                    <p>Espero te agrade la visualización de cada uno de los retos establecidos.</p>
+                    <button onClick="this.parentElement.close()">aceptar</button>
+            </dialog>
         </section>
     </main>
     <footer class="foo">
         <span>Creado Por Ruben Quiroz</span>
         <span>Inspirado en Mazndev</span>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>

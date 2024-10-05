@@ -40,7 +40,16 @@ body{
     padding-bottom:10px ;
 }
 /* Reto */
+#alert-dialog{
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    justify-self: center;
+}
 
+#alert-dialog::backdrop{
+    background: linear-gradient(#000d, #000a);
+}
 /* footer */
 
 .foo{
