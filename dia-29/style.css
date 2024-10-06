@@ -35,12 +35,15 @@ body{
 .reto{
    min-height: 400px ;
    display: flex;
+   flex-direction: column;
    justify-content: center;
-   align-items: baseline;
+   align-items:center;
     padding-bottom:10px ;
 }
 /* Reto */
-
+.retop p{
+    text-align: center;
+}
 /* footer */
 
 .foo{
