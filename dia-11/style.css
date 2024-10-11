@@ -22,7 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 /* Comentario */
@@ -39,16 +39,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom:10px ;
+    padding:10px ;
 }
 /* Reto */
     
 .containes{
-    margin-top: 10px;
     display: flex;
     justify-content: center;
-    background-color: var(--incople-color);
-    color: var(--reto-tex-color);
+    background-color: var(--txt-color);
+    color: var(--bag-color);
 }
 .containes > div{
     padding: 10px;

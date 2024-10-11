@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     --foo-color:#333333;
     --txt-color:#FFFFFF;
-    --nav-color:#F3C311;
+    --nav-color:#F3C324;
     --bag-color:#222222;
     --incople-color:#BD3936;
     font-family: monospace;
@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 main{
@@ -45,10 +45,11 @@ main{
     justify-content: center;
     background: var(--nav-color);
     color: var(--txt-color);
-    font-size: 15px;
-    border-radius: 15px;
- 
+    font-size: 22px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 2px var(--foo-color);
 }
+
 
 a {
     text-decoration: none;

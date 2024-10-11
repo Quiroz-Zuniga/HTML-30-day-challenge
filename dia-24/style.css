@@ -21,6 +21,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 26px;
 }
 
 /* Comentario */
@@ -37,14 +38,15 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-    padding-bottom:10px ;
+    padding:10px ;
 }
 /* Reto */
     fieldset{
         display: flex;
         flex-direction: column;
+        border-radius: 14px;
     }
-
+    
     input{
         margin: 10px;
     }

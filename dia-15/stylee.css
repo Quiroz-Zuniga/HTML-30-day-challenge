@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 /* Comentario */
@@ -37,7 +37,7 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-    padding-bottom:10px ;
+    padding:10px ;
 }
 /* Reto */
 
@@ -49,7 +49,7 @@ body{
 }
 
 .reto{
-    background:linear-gradient(#48e 80%, #fff 10%);
+    background:var(--bag-color);
 }
 
 /* footer */

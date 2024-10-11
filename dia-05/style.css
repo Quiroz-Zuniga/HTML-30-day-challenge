@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 /* Comentario */
@@ -36,11 +36,13 @@ body{
     min-height: 450px ;
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    padding-bottom:10px ;
+    align-items: center;
+
 }
 /* Reto */
-
+h4{
+    font-size: 18px;
+}
 
 /* footer */
 

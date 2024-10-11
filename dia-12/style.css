@@ -20,7 +20,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 /* Comentario */
@@ -37,13 +37,11 @@ body{
  display: flex;
  justify-content: center;
  align-items: center;
-  padding-bottom:10px ;
+  padding:10px ;
 }
 /* Reto */
 
-.demo{
-  color: var(--incople-color);
-}
+
 .slidecontainer {
     min-width: 400px;
   }
@@ -68,14 +66,14 @@ body{
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #04AA6D;
+    background: var(--nav-color);
     cursor: pointer;
   }
   
   .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #04AA6D;
+    background:var(--nav-color);
     cursor: pointer;
   }
   

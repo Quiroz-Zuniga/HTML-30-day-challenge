@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 /* Comentario */
@@ -66,13 +66,15 @@ body{
  }
  .container a{
     text-decoration: none;
-    color: #F3C311;
+    color: var(--foo-color);
  }
 
  .foo-reto{
     width: 100%;
-    background-color: var(--incople-color);
+    height: 30px;
+    background-color: var(--foo-color);
     text-align: center;
+    color: var(--txt-color);
  }
 /* Animación */
 @keyframes parpade {

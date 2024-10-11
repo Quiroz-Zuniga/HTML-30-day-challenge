@@ -25,6 +25,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 26px;
 }
 
 /* Comentario */
@@ -57,7 +58,8 @@ body{
     margin-top: px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px 5px #333;
-    color: var(--card-color);
+    color: var(--txt-color);
+    font-size: 14px;
     user-select: none;
 }
 
@@ -77,7 +79,7 @@ body{
     margin-top: 10px;
 }
  a{
-    color: #2f0;
+    color: var(--txt-color);
 }
 
 picture img{

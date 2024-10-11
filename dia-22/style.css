@@ -21,6 +21,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 26px;
 }
 
 /* Comentario */
@@ -38,6 +39,7 @@ body{
    justify-content: center;
    align-items:center;
     box-sizing: border-box;
+    padding: 10px;
 }
 
 label{

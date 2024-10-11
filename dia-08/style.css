@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 /* Comentario */
@@ -36,14 +36,13 @@ body{
    min-height: 450px ;
    display: flex;
    justify-content: center;
-   align-items: baseline;
-    padding-bottom:10px ;
+   align-items: center;
+    padding:10px ;
 }
 /* Reto */
 .main-reto{
     width: 96%;
     padding-left: 2%;
-
 }
 
 .main-reto > div{
@@ -57,24 +56,24 @@ body{
     text-align: justify;
     margin: 10px;
     text-wrap:wrap;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     
 }
 
  .hi{
-    color: red;
+    color: blue;
  }
 .st{
-    color: black;
+    color: blue;
 }
 
 .cin{
-    color: blueviolet;
+    color: blue;
 }
 
 mark{
-    color: var(--incople-color);
+    color: blue;
 }
 
 /* footer */

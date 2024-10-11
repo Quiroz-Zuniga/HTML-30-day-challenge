@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     --foo-color:#333333;
     --txt-color:#FFFFFF;
-    --nav-color:#F3C311;
+    --nav-color:#F3C342;
     --bag-color:#222222;
     --incople-color:#BD3936;
     font-family: monospace;
@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 /* Comentario */
@@ -36,8 +36,8 @@ body{
    min-height: 450px ;
    display: flex;
    justify-content: center;
-   align-items: baseline;
-    padding-bottom:10px ;
+   align-items: center;
+    padding:10px ;
 }
 /* Reto */
 
@@ -45,6 +45,7 @@ body{
     padding: 10px;
     margin: 10px;
     background-color: var(--txt-color);
+    border-radius: 15px;
 }
 .reto h2{
     color: var(--bag-color);
@@ -58,19 +59,48 @@ summary{
     margin: 5px;
     padding: 5px;
     font-size: 15px;
+    border-radius: 14px;
+    transition: all 0.3s ease;
 }
+summary:hover{
+    color: var(--nav-color);
+    background-color: var(--txt-color);
+    border: 1px solid var(--foo-color);
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+/* Reglas para selecionar solo un sammary */
+/* .grid details[open] summary {
+    background-color: var(--txt-color);
+    color: var(--nav-color);
+    border: 1px solid var(--foo-color);
+}
+
+.grid details[open] + details summary {
+    background-color: var(--nav-color);
+    color: var(--bag-color);
+    border: none;
+} */
 
 summary div {
     background-color: var(--bag-color);
 }
  div p{
     text-align: center;
-    background-color: var(--bag-color);
-    color: var(--nav-color);
+    background-color: var(--txt-color);
+    color: var(--bag-color);
     font-size:16px;
     margin: 0;
     padding: 2px;
  }
+
+ /* cerrar */
+
+ /* .grid-1 details[open] ~ details,
+ .grid-2 details[open] ~ details {
+    display: none;
+ } */
 /* footer */
 
 .foo{
