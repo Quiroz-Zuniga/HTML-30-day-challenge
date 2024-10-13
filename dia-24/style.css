@@ -44,12 +44,45 @@ body{
     fieldset{
         display: flex;
         flex-direction: column;
-        border-radius: 14px;
+        border: none;
+    }
+    label{
+        
     }
     
     input{
         margin: 10px;
+        border: none;
+        border-bottom: 1px solid var(--txt-color);
+        background-color: var(--bag-color);
+        opacity: 1;
+        outline: none;
+        color: var(--nav-color);
+ 
     }
+
+    button{
+        background-color: var(--bag-color);
+        margin: 10px;
+        border: none;
+        color: #777;
+        border: 1px solid var(--txt-color);
+        border-radius: 12px;
+    }
+
+    button:hover{
+        color: var(--nav-color);
+        border: 1px solid var(--nav-color);
+    }
+    input:hover::placeholder{
+        color: var(--nav-color);
+
+    }
+
+    input:hover{
+        border-bottom: 1px solid var(--nav-color);
+    }
+
 
     legend{
         margin-bottom: 10px;

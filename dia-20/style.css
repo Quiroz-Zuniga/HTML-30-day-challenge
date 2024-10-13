@@ -53,18 +53,33 @@ form{
     align-items: center;
     margin: auto;
     padding: 10px;
-    background: var(--txt-color);
-    min-width: 400px;
+    background: var(--bag-color);
+    min-width: 250px;
     min-height: auto;
     border-radius: 14px;
+    border:1px solid var(--txt-color);
 }
 
 input,textarea,button{
     outline: none;
     margin: 10px 0 10px 0 ;
-    min-width: 300px;
-    height: 40px ;
+    min-width: 200px;
+    height: 30px ;
+    background-color: var(--bag-color);
+    border-radius: 14px;
+    padding: 10px;
+    color: var(--nav-color);
 }
+
+textarea{
+    border-top: none;
+    border-left: none;
+}
+
+input:hover::placeholder,textarea:hover::placeholder,button:hover{
+    color: var(--nav-color);
+}
+
 
 /* footer */
 
