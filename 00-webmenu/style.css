@@ -5,42 +5,40 @@ body{
     --foo-color:#333333;
     --txt-color:#FFFFFF;
     --nav-color:#F3C324;
-    --bag-color:#222222;
-    --incople-color:#BD3936;
+    --bag-color:#111111;
     font-family: monospace;
     background-color: var(--bag-color);
     color: var(--txt-color);
 }
 
-/* Header */
 
 .header{
+    height: 400px;
     color: var(--nav-color);
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     font-size: 26px;
+    align-items: center;
 }
 
-main{
-    height: 80%;
-}
+
 
 /* body-nav */
 .nav-grid{
-    min-height: calc(800px - 280px);
-    display: grid;
-    grid-template-columns: repeat(10, 1fr) ;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
-    margin: 20px;
+height:100%;
+ display: grid;
+ grid-template-columns: repeat(4, 250px);
+ grid-template-rows: repeat(8, 250px);
+ justify-content: center;
+ align-content: center;
+ margin-bottom: 3rem;
 }
 
 .dia-rt{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     align-items: center;
     justify-content: center;
     background: var(--nav-color);
@@ -51,10 +49,11 @@ main{
 }
 
 
-a {
+.nav-enlaces {
     text-decoration: none;
     width: 100px;
     height: 100px;
+    cursor: pointer;
 }
 /* footer */
 
@@ -63,7 +62,7 @@ a {
     align-items:center;
     justify-content:space-around;
     width: 100%;
-    min-height: 200px;
+    height: 200px;
     background-color: var(--foo-color);
 }
 
@@ -71,8 +70,8 @@ span{
     font-size: 16px;
     color:  var(--nav-color);
     padding: 0 10px 0 10px;
+    cursor: pointer;
 }
-
 
 /* Efectos y animaciones */
 

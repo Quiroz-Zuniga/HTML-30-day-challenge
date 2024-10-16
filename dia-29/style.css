@@ -41,8 +41,24 @@ body{
     padding-bottom:10px ;
 }
 /* Reto */
-.retop p{
+
+.reto div{
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+}
+div p {
     text-align: center;
+    color: var(--txt-color);
+    font-size: 18px;
+}
+
+div a {
+    margin: 10px;
+    font-size: 14px;
+   color: var(--nav-color);
 }
 /* footer */
 

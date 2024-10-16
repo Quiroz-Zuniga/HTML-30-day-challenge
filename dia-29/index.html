@@ -15,11 +15,62 @@
          <span class="text">Día 29</span> <h2 class="text">Crea un sistema de pestañas (tabs) para mostrar información. Necesita algo de Javascript.</h2>
         </article>
         <section class="reto">
-            <p>en este apartado te mostrare el texto "HTML"</p>
-            <a href="#second"> ir al siguinete apartado</a>
-            <p id="second" hidden="until-found">En este otro apartado te mostrares "CSS"></p>
-            <a href="#treer"> ir al siguinete apartado</a>
-            <p id="treer" hidden="until-found">En este apartado veremos "JS"</p>
+            <div>
+              <section>
+                <p>en este apartado te mostrare código "HTML"</p>
+                <pre>
+                    <code>
+                    &lt;html&gt;
+                        &lt;head&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                                &lt;header&gt;
+                                &lt;/header&gt;
+                                &lt;nav&gt;
+                                &lt;/nav&gt;
+                                &lt;main&gt;
+                                    &lt;section&gt;
+                                    &lt;/section&gt;
+                                &lt;/main&gt;
+                                &lt;footer&gt;
+                                &lt;/footer&gt;
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+                    </code>
+                </pre>
+             </section>
+             <a href="#second"> ir al CSS</a>
+             <section id="second" hidden="until-found">
+                <p>En este otro apartado te mostrares código "CSS"></p>
+                <pre>
+                    <code>
+                    .reto div{
+                        min-height: 600px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content:start;
+                        align-items: center;
+                    }
+                    </code>
+                </pre>
+             </section>
+             <a href="#treer"> ir al JS</a>
+             <section id="treer" hidden="until-found">
+                <p>En este apartado veremos código "JS"</p>
+                <pre>
+                    <code>
+                    var slider = document.getElementById("myRange");
+                    var output = document.getElementById("demo");
+                    output.innerHTML = slider.value; // Muestra el valor inicial
+
+                    slider.oninput = function() {
+                    output.innerHTML = this.value;
+                    }
+                    </code>
+                </pre>
+             </section>
+            </div>
+            
         </section>
     </main>
     <footer class="foo">
