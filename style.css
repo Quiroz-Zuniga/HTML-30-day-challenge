@@ -88,8 +88,10 @@ height:100%;
     color: var(--txt-color);
     font-size: 22px;
     border-radius: 12px;
+    border: var(--color_wite) 8px groove; 
     box-shadow: 5px 5px 10px 1px #000000;
     box-sizing: border-box;
+  
 }
 
 
@@ -141,7 +143,8 @@ span{
     background: var(--color_wite);
     color: var(--nav-color);
     border-radius: 14px;
-    transition: 1s;
+    border: var(--nav-color) 8px groove; 
+    transition: 1.2s;
 }
 
 /* Responcive */
