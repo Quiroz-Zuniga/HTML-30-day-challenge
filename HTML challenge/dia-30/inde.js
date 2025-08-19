@@ -1,5 +1,3 @@
-
-import confetti from "canvas-confetti";
 const confettiBtn = document.querySelector(".canvas-confetti-btn");
 let exploding  = false;
 
